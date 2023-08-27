@@ -38,4 +38,7 @@ public class Products {
         this.brand = brand;
         this.price = price;
     }
+    public String displayInfo(){
+        return String.format("Name: %s, Brand: %s, Price: %f", name, brand, price);
+    }
 }
